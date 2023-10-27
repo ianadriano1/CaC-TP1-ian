@@ -1,0 +1,122 @@
+*{
+    height: 0px;
+    width: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("../img/Backround.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #FFE699;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 200vh;
+}
+
+h1{
+    background-color: rgba(255,230,153,0.62);
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    height: 40vh;
+    width: 100vw;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-family:'Brush Script MT',cursive;
+    font-size: 18vh;
+    color: rgb(0, 0, 0) ;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+    
+ul{
+    background-color: rgba(255, 230, 153, 0.46);
+    display: flex;
+    justify-content: space-evenly;
+    height: 8vh;
+    width: 100vw;
+    color: #212121;
+}
+
+li{
+    height: 8vh;
+    width: 14vw;
+    background-color: #FFE966;
+    border: 1px solid black;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: top;
+    height: 200vh;
+    width: 100vw;
+    margin-top: 55vh;
+}
+
+.item1{
+    background-color: rgb(191, 144, 0,0.9);
+    border: 1px solid black;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: 60vh;
+}
+
+.item2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 96vw;
+    height: 90vh;
+    font-size: 30px;
+}
+
+.item2a {
+    background-color:rgb(230, 230, 230,0.9);
+    width: 45vw;
+    height: 80vh;
+    display: flex;
+    justify-content: top;
+    align-items: left;
+    border: 1px solid black;
+}
+
+.item2b {
+    background-color:rgb(230, 230, 230,0.9);
+    width: 45vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+footer{
+    background-color: rgba(255, 230, 153, 0.9);
+    border-top: 2px solid black;
+    height: 50vh;
+    width: 100vw;
+    color: #191919 ;
+    font-size: 25px;
+    display: grid;
+    align-content: stretch;
+    align-items: end;
+    justify-content: right;
+}
+
